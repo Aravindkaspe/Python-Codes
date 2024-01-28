@@ -1,0 +1,15 @@
+Virat Kohli 85 92 73
+Rohit Sharma 56 43 92
+KL Rahul 87 94 68
+Jasprit Bumrah 90 45 89
+Hardik Pandya 88 97 78
+Kuldeep Yadav 82 76 95
+Ravindra Jadeja 67 98 86
+MS Dhoni 90 86 95
+Rishabh Pant 45 78 89
+Mohammed Shami 76 74 96
+Yuzvendra Chahal 78 94 87
+Bhuvneshwar Kumar 37 74 89
+Dinesh Karthik 92 84 95
+Kedar Jadhav 91 67 77
+Mayank Agarwal 89 77 93

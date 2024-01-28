@@ -1,0 +1,70 @@
+Today we will design and test a class that will implement a Doubly Linked List.
+The Doubly Linked List will use a Sentinel Node for head, and a Sentinel Node
+for tail.  Also, the Doubly Linked List will contain a Sorted List of str
+elements.  Specifically, design 2 classes...
+
+(1) A class named Node that contains the constructor for a Node with
+    _element, _prev, and _next.  I did not make this class nested inside the
+    Linked List class.
+(2) A class named SortedList that contains the constructor and 6 other instance
+    methods.
+(3) The constructor instantiates the Sentinel Nodes and initializes _head, _tail,
+    and _size.
+(4) is_empty() returns True if the list is empty, False otherwise.
+(5) size() returns the number of elements in the list
+(6) insert(element) inserts the element into its proper location so that the list
+    of str elements is sorted in alphabetical order.  An element may be in the
+    list more than once.
+(7) delete(element) deletes element from the list.  If the list is empty, or the
+    element is not found in the list, simply do nothing.
+(8) printList() prints the list in-order with'[' and ']' on either end.
+(9) printReverse() prints the list in reverse order with '[' and ']' on either
+    end.
+
+This input should be used to test your solution...
+
+L = SortedList()
+L.printList()
+L.printReverse()
+L.delete('Liljegren')
+L.insert('Letscher')
+L.delete('Liljegren')
+L.printList()
+L.printReverse()
+L.delete('Letscher')
+L.printList()
+L.printReverse()
+L.insert('Fritts')
+L.insert('Chambers')
+L.printList()
+L.printReverse()
+L.insert('Stylianou')
+L.insert('Ferry')
+L.insert('Goldwasser')
+L.insert('Esposito')
+L.insert('Hou')
+L.delete('Liljegren')
+L.printList()
+L.printReverse()
+L.delete('Stylianou')
+L.printList()
+L.delete('Chambers')
+L.printList()
+L.delete('Ferry')
+L.printList()
+
+The input should produce the following output...
+
+printList (0): [ ]
+printReverse (0): [ ]
+printList (1): [ Letscher ]
+printReverse (1): [ Letscher ]
+printList (0): [ ]
+printReverse (0): [ ]
+printList (2): [ Chambers Fritts ]
+printReverse (2): [ Fritts Chambers ]
+printList (7): [ Chambers Esposito Ferry Fritts Goldwasser Hou Stylianou ]
+printReverse (7): [ Stylianou Hou Goldwasser Fritts Ferry Esposito Chambers ]
+printList (6): [ Chambers Esposito Ferry Fritts Goldwasser Hou ]
+printList (5): [ Esposito Ferry Fritts Goldwasser Hou ]
+printList (4): [ Esposito Fritts Goldwasser Hou ]
